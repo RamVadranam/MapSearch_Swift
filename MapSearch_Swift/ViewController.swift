@@ -46,34 +46,7 @@ class ViewController: UIViewController {
         })
         
        
-       /* geocoder.geocodeAddressString(searchBar.text, completionHandler:
-            { (placeMarks:[]!, error:NSError!) -> Void in
-            
-                var placeMark:CLPlacemark=placeMarks[0] as CLPlacemark
-                var region:MKCoordinateRegion
-                var location:CLLocationCoordinate2D=placeMark.location.coordinate
-               
-                //region.center=placeMark.region
-                
-                var annoation=MKPointAnnotation()
-                annoation.coordinate=location
-                annoation.title=self.searchBar.text
-                self.mapView.addAnnotation(annoation)
-                
-                var mr:MKMapRect=self.mapView.visibleMapRect
-                var pt:MKMapPoint=MKMapPointForCoordinate(annoation.coordinate)
-                mr.origin.x=pt.x-mr.size.width*0.5
-                mr.origin.y=pt.y-mr.size.height*0.25
-                
-                self.mapView.setVisibleMapRect(mr, animated: true)
-                
-                
-                
-                
-                
-                
-                
-        })*/
+       
         
     }
     
